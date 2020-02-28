@@ -137,8 +137,8 @@ var post_task_block = {
    data: {
        trial_id: "post task questions"
    },
-   questions: ['<p class = center-block-text style = "font-size: 20px">Please summarize what you were asked to do in this task.</p>',
-              '<p class = center-block-text style = "font-size: 20px">Do you have any comments about this task?</p>'],
+   questions: ['<p class = center-block-text style = "font-size: 20px">Please summarize what you were asked to do in this game.</p>',
+              '<p class = center-block-text style = "font-size: 20px">Do you have any comments about this game?</p>'],
    rows: [15, 15],
    columns: [60,60]
 };
@@ -149,7 +149,7 @@ var welcome_block = {
   data: {
     trial_id: 'welcome'
   },
-  text: '<div class = centerbox><p class = center-block-text>Welcome to the experiment. This task will take about 11 minutes. Press <strong>enter</strong> to begin.</p></div>',
+  text: '<div class = centerbox><p class = center-block-text>Welcome to the game. This game will take about 11 minutes. Press <strong>enter</strong> to begin.</p></div>',
   cont_key: [13],
   timing_response: 180000,
   timing_post_trial: 0
@@ -170,7 +170,7 @@ var end_block = {
 
 
 var feedback_instruct_text =
-  'Welcome to the experiment. Press <strong>enter</strong> to begin.'
+  'Welcome to the game. Press <strong>enter</strong> to begin.'
 var feedback_instruct_block = {
   type: 'poldrack-text',
   data: {
@@ -188,7 +188,7 @@ var instructions_block = {
     trial_id: 'instruction'
   },
   pages: [
-    '<div class = centerbox><p class = block-text>In this experiment a coin worth 0&cent; will appear on the screen. After a time it will become a 30&cent; coin. At any point you can collect the coin by pressing the spacebar and moving on to another trial.</p><p class = block-text>Your job is to get as much money as possible in 10 minutes. We will start with a practice round. Press <strong>end instructions</strong> to begin.</p></div>'
+    '<div class = centerbox><p class = block-text>In this game a coin worth 0&cent; will appear on the screen. After a time it will become a 30&cent; coin. At any point you can collect the coin by pressing the spacebar and moving on to another round.</p><p class = block-text>Your job is to get as much money as possible in 10 minutes. We will start with a practice round. Press <strong>end instructions</strong> to begin.</p></div>'
   ],
   allow_keys: false,
   show_clickable_nav: true,
