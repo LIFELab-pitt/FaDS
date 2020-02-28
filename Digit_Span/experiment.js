@@ -154,7 +154,10 @@ var post_task_block = {
    questions: ['<p class = center-block-text style = "font-size: 20px">Please summarize what you were asked to do in this task.</p>',
               '<p class = center-block-text style = "font-size: 20px">Do you have any comments about this task?</p>'],
    rows: [15, 15],
-   columns: [60,60]
+   columns: [60,60],
+   on_finish: function() {
+   	jsPsych.data.localSave('digit-span_results.csv', 'csv');
+   }
 };
 
 /* define static blocks */
