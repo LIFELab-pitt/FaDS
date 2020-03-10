@@ -334,7 +334,7 @@ var test_node = {
 /* create experiment definition array */
 var willingness_to_wait_experiment = [];
 willingness_to_wait_experiment.push(instruction_node);
-//for (var i = 0; i < practice_delays.length; i++) {
+//for (var i = 0; i < practice_delays.length; i++) was changed for i<2 to get two trials. 
   willingness_to_wait_experiment.push(practice_block)
   willingness_to_wait_experiment.push(feedback_block)
 //}
